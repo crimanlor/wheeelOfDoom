@@ -12,6 +12,14 @@
 
 body {
   background-color: #080808;
+  font-family: "Permanent Marker", cursive;
+}
+
+header {
+  color: #f71414;
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 1em;
 }
 
 #namesSection {
@@ -44,7 +52,7 @@ body {
   width: 12em;
   height: 3em;
   border-radius: 6em;
-  margin-top: 4em;
+  margin-top: 2em;
 }
 
 footer {
