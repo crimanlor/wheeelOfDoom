@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  background: transparent;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #080808;
+}
+
+#namesSection {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+#namesSection ul {
+  text-align: center;
+  color: #20cf37;
+  padding-top: 1em;
+}
+#namesSection li {
+  padding: 0.5em;
+}
+
+/*# sourceMappingURL=main.css.map */

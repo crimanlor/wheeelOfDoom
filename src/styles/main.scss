@@ -1,0 +1,30 @@
+@use 'styleModules/variables' as var;
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    background: transparent;
+    vertical-align: baseline;
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: hsl(0, 0%, 3%);
+}
+
+#namesSection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+        & ul {
+            text-align: center;
+            color: var.$principalColor;
+            padding-top: 1em;
+}
+        & li {
+            padding: 0.5em;
+        }
+}
