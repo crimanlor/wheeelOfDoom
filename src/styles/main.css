@@ -53,6 +53,12 @@ header {
   height: 3em;
   border-radius: 6em;
   margin-top: 2em;
+  font-family: "Permanent Marker", cursive;
+}
+#nameSelectedSection #btn:hover {
+  color: white;
+  text-decoration: underline;
+  border: 0.2em solid white;
 }
 
 footer {
