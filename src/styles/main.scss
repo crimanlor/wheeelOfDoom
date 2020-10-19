@@ -24,9 +24,9 @@ header {
 }
 
 #namesSection {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
     & ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
         text-align: center;
         color: var.$principalColor;
         padding-top: 1em;
