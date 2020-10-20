@@ -12,12 +12,20 @@
 <body>
     <header>
         <h1>Wheel of Doom</h1>
+        <div id="addContainer">
+            <label for="addCoder">Añadir/quitar coder</label>
+            <div>
+                <button id="btnSubstractCoder" class="btn btnCoder">-</button>
+                <input type="text" id="addCoder" placeholder="Nombre">
+                <button id="btnAddCoder" class="btn btnCoder">+</button>
+            </div>
+        </div>
     </header>
     <main id="mainContent">
         <section id="nameSelectedSection">
             <p id="result"></p>
-            <div id="progresBar">Barra</div>
-            <button id="btn">Botón</button>
+            <!-- <div id="progresBar">Barra</div> -->
+            <button id="btnKill" class="btn">Botón</button>
         </section>
     </main>
     <footer>

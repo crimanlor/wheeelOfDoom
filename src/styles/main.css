@@ -21,6 +21,22 @@ header {
   padding-top: 2em;
   padding-bottom: 1em;
 }
+header h1 {
+  font-size: 4em;
+  padding-bottom: 1.5em;
+}
+
+#addContainer #addCoder {
+  background-color: white;
+  border-radius: 0.5em;
+  padding: 0.3em;
+  font-family: "Permanent Marker", cursive;
+}
+#addContainer .btnCoder {
+  height: 2em;
+  width: 4em;
+  margin-top: 0.5em;
+}
 
 #namesSection ul {
   display: grid;
@@ -44,7 +60,8 @@ header {
 #nameSelectedSection #result {
   padding-bottom: 0.8em;
 }
-#nameSelectedSection #btn {
+
+.btn {
   color: black;
   background-color: #b47246;
   width: 12em;
@@ -53,7 +70,8 @@ header {
   margin-top: 2em;
   font-family: "Permanent Marker", cursive;
 }
-#nameSelectedSection #btn:hover {
+
+.btn:hover {
   color: white;
   text-decoration: underline;
   border: 0.2em solid white;

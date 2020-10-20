@@ -13,7 +13,7 @@
 
 body {
     background-color: hsl(0, 0%, 3%);
-    font-family: "Permanent Marker", cursive;
+    font-family: var.$principalFont;
 }
 
 header {
@@ -21,7 +21,27 @@ header {
     text-align: center;
     padding-top: 2em;
     padding-bottom: 1em;
+    & h1 {
+        font-size: 4em;
+        padding-bottom: 1.5em;
+    }
 }
+
+#addContainer {
+    
+    & #addCoder {
+        background-color: white;
+        border-radius: 0.5em;
+        padding: 0.3em;
+        font-family: var.$principalFont;
+    }
+    & .btnCoder {
+        height: 2em;
+        width: 4em;
+        margin-top: 0.5em;
+    }    
+}
+
 
 #namesSection {
     & ul {
@@ -48,23 +68,23 @@ header {
     }
     // & #progresBar {
     // }
-    & #btn {
-        color: black;
-        background-color: var.$botonColor;
-        width: 12em;
-        height: 3em;
-        border-radius: 6em;
-        margin-top: 2em;
-        font-family: "Permanent Marker", cursive;
-    }
+   
+}
 
-    #btn:hover {
-        color: white;
-        text-decoration: underline;
-        border: 0.2em solid white;
-        
+.btn {
+    color: black;
+    background-color: var.$botonColor;
+    width: 12em;
+    height: 3em;
+    border-radius: 6em;
+    margin-top: 2em;
+    font-family: var.$principalFont;
+}
 
-    }
+.btn:hover {
+    color: white;
+    text-decoration: underline;
+    border: 0.2em solid white;
 }
 
 footer {

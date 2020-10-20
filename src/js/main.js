@@ -10,6 +10,8 @@ const nodeUl = document.createElement('ul');
 namesSectionId.appendChild(nodeUl).setAttribute('id', 'namesList');
 const nodeColumns = document.querySelector('#namesList');
 
+
+function coderList (countList) {
     for(let i = 0; i < actualCoders.length; i++) {
     const nodeLi = document.createElement('li');
     nodeColumns.appendChild(nodeLi).setAttribute('id', `coder${[i]}`);
@@ -17,11 +19,11 @@ const nodeColumns = document.querySelector('#namesList');
     const coderId = document.querySelector(`#coder${[i]}`);
     const nodeText = document.createTextNode(`${actualCoders[i]}`);
     coderId.appendChild(nodeText);
-    
-
+    }
+   
 }
 
-const btnListener = document.querySelector('#btn');
+const btnListener = document.querySelector('#btnKill');
 btnListener.addEventListener('click', killEm);
 
 function killEm () {
@@ -31,4 +33,13 @@ function killEm () {
     const resultId = document.querySelector('#result');
     resultId.textContent = loser;
     console.log(selection);
+}
+
+const btnAddCoder = document.querySelector('#btnAddCoder');
+btnAddCoder.addEventListener('click', addCoder);
+
+function addCoder () {
+    let newCoder = document.querySelector('#addCoder').value;
+    actualCoders.push(newCoder);
+    
 }
