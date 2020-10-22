@@ -1,5 +1,7 @@
 'use strict'
 
+///////CREATE CODERLIST///////
+
 let actualCoders = ['alejandra', 'alvaro', 'carmen', 'stefanie', 'gabriel', 'giacomo', 'giselle', 'jackson', 'jorge', 'jose', 'isma', 'laura r', 'laura R', 'loredana', 'lorena', 'lucas', 'maxpower', 'mercedes', 'moises', 'olga', 'quim', 'r', 'sergio', 'vanessa'];
 
 const    nodeSection = document.createElement('section');
@@ -8,6 +10,8 @@ const namesSectionId = document.querySelector('#namesSection');
 const nodeUl = document.createElement('ul');
 namesSectionId.appendChild(nodeUl).setAttribute('id', 'namesList');
 const nodeColumns = document.querySelector('#namesList');
+
+///////FUNCTIONS///////
 
 function coderList(count = 0) {
     for (let i = count; i < actualCoders.length; i++) {
@@ -54,12 +58,7 @@ document.querySelector('#namesList').innerHTML = "";
 coderList();
 }
 
-// function substractCoder() {
-//     const index = actualCoders.indexOf(indexValue);
-//     if (index > -1) {
-//         actualCoders.splice(index, 1);
-//     }
-// }
+///////CALL TO ACTION///////
 
 const btnListener = document.querySelector('#btnKill');
 btnListener.addEventListener('click', killEm);

@@ -23,7 +23,7 @@ header {
 }
 header h1 {
   font-size: 4em;
-  padding-bottom: 1.5em;
+  padding-bottom: 0.5em;
 }
 
 #addContainer #addCoder {
@@ -54,7 +54,6 @@ header h1 {
   grid-template-rows: repeat(3, 1fr);
   justify-content: center;
   text-align: center;
-  padding: 4em;
   color: white;
 }
 #nameSelectedSection #result {
@@ -67,7 +66,7 @@ header h1 {
   width: 12em;
   height: 3em;
   border-radius: 6em;
-  margin-top: 2em;
+  margin-top: 0.5em;
   font-family: "Permanent Marker", cursive;
 }
 
