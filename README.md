@@ -22,5 +22,6 @@ Tiene que poder funcionar en cualquier dispositivo.
 - Foco en UX.
 - Mobile first.
 
-
+#### Link git pages
+https://sergiopons.github.io/wheeelOfDoom
 
